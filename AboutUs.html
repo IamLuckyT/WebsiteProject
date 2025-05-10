@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="header">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products 2 - OneStopSkateShop</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+         <div class="logo">
+            <a href="OneStopSkateShop.html"><img src="Images\logo.png" width="150px" height="80px"></a>
+        </div>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    <nav>
+         <ul>
+            <li><a href="OneStopSkateShop.html">Home</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="About Us page.html">About Us</a></li>
+            <li><a href="Account.html">Account</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+        </ul id="MenuItems">
+        <a href="Shopping cart.html"><img src="Images\cart.png" width="30px" height="32px"></a>
+        <img src="Images\menu.png" class="menu-icon" onclick="menutoggle()">
+    </nav>
+        </div>
+    </div>
+    <hr>
+</div>
+  
+    
+<section id="aboutus">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <br>
+                <h2><i>OneStopSkateShop</i></h2>
+                <p>Our Store prides itself in providing quality products to its customers, we sell various items which falls under the category of skateboarding.<br> Our biggest aim is to make our custormers happy by ensuring we provide the best of products at an affordable price.<br> Our shop is filled with different products for different levels of skateboarding.
+                        <br>
+                    Our shop has different categories and list is drafted below:
+                    <ul>
+                        <li><a href="Products.html">Full Set Skateboards </a></p></li>
+                        <li><a href="Products.html">Skateboard Decks </a></li>
+                        <li><a href="Products.html">Skateboard Wheels </a></li>
+                        <li><a href="Products.html">Skateboard Bearings</a></li>
+                        <li><a href="Products.html">Skateboard Trucks </a></li>
+                        <li><a href="Products 2.html">Hoodies</a></li>
+                        <li><a href="Products 2.html">T-shirts</a></li>
+                        <li><a href="Products 3.html">Skate Shoes</a></li>
+                    </ul>
+            </div>
+            <div class="col-sm-5">
+                <div class="img-wrap">
+                    <img src="Images/download.jpg">
+                </div>
+            </div>
+        </div> 
+    </div>
+</section>
+
+<!---- Footer ---->
+    <div class="footer">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="Images\gplay.png">
+                        <img src="Images\app store.png">
+                    </div>
+                </div>
+                 <div class="footer-col-2">
+                    <h3><img src="Images\logo.png"></h3>
+                    <p>Our key goal is to provide quality products for our customers</p>
+                </div>
+
+                 <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                      <li><a href="www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
+                        <br>
+                        <li><a href="www.Twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                        <br>
+                        <li><a href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+                        <br>
+                        <li><a href="www.youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+                        <br>
+                     </ul>
+                </div>
+            </div>
+         </div>
+        <hr>
+        <br>
+    <p class="copyright">@Copyright 2020 - OneStopSkateShop</p>
+</div>
+<!--- JavaScript used for toggle menu --->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight == "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>

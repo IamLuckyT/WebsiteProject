@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="header">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Database - OneStopSkateShop</title>
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+	<div class="container">
+        <div class="navbar">
+         <div class="logo">
+            <a href="OneStopSkateShop.html"><img src="Images\logo.png" width="150px" height="80px"></a>
+        </div>
+        <div class="search-container">
+   			<form action="/action_page.php">
+     		 	<input type="text" placeholder="Search.." name="search">
+     		 	<button type="submit"><i class="fa fa-search"></i></button>
+    		</form>
+  		</div>
+    	<nav>
+         <ul>
+            <li><a href="OneStopSkateShop.html">Home</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="About Us page.html">About Us</a></li>
+            <li><a href="Account.html">Account</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>>
+        </ul id="MenuItems">
+        <a href="Shopping cart.html"><img src="Images\cart.png" width="30px" height="32px"></a>
+        <img src="Images\menu.png" class="menu-icon" onclick="menutoggle()">
+    	</nav>
+        </div>
+	
+<div class="row">
+<form>
+	<fieldset>
+		<legend>Product Name</legend>
+		<input type="text" class="form-control" name="" id="item">
+
+		<legend>Quantity</legend>
+		<input type="number" class="form-control" id="quantity" name="">
+<br>
+<button type="button" id="insert" class="btn btn-success">Insert</button>
+
+<button type="button" id="create" class="btn btn-success">Create Table</button>
+
+<button type="button" id="remove" class="btn btn-danger">Delete Table</button>
+
+<button type="button" id="list" class="btn btn-success">Fetch Record</button>
+
+	</fieldset>
+</form>
+
+<hr>
+<h5 text-size="40px">Record</h5>
+<br>
+<table-2 class="table table-bordered table-hover" id="itemlist">
+	
+</table-2>
+
+</div>
+<!---- Footer ---->
+    <div class="footer">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="Images\gplay.png">
+                        <img src="Images\app store.png">
+                    </div>
+                </div>
+                 <div class="footer-col-2">
+                    <h3><img src="Images\logo.png"></h3>
+                    <p>Our key goal is to provide quality products for our customers</p>
+                </div>
+                 <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</li>
+                        <li><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</li>
+                        <li><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</li>
+                        <li><i class="fa fa-youtube" aria-hidden="true"></i> YouTube</li>
+                     </ul>
+                </div>
+            </div>
+         </div>
+        <hr>
+        <br>
+    <p class="copyright">@Copyright 2020 - OneStopSkateShop</p>
+</div>
+<!--- JavaScript used for toggle menu --->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight == "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+</html>

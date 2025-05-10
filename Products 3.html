@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="header">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products 2 - OneStopSkateShop</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+         <div class="logo">
+            <a href="OneStopSkateShop.html"><img src="Images\logo.png" width="150px" height="80px"></a>
+        </div>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search..">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    <nav>
+         <ul>
+            <li><a href="OneStopSkateShop.html">Home</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="About Us page.html">About Us</a></li>
+            <li><a href="Account.html">Account</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+        </ul id="MenuItems">
+        <a href="Shopping cart.html"><img src="Images\cart.png" width="30px" height="32px"></a>
+        <img src="Images\menu.png" class="menu-icon" onclick="menutoggle()">
+    </nav>
+        </div>
+    </div>
+    <hr>
+</div>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Shorting</option>
+                <option>Short by popularity</option>
+                <option>Short by rating</option>
+                <option>hort by sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+            <img src="Images\nike.jpg" height="250px">
+            <h4>SB Charge suede -white</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>R999.99 </p>
+        </div>
+
+        <div class="col-4">
+            <img src="Images\nike 2.jpg" height="275px">
+            <h4>Nike SB Bruin React Skate Shoe</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>R899.99</p>
+         </div>
+
+        <div class="col-4">
+            <img src="Images\nike 3.jpg" height="275px">
+            <h4>D Treads-Mens Black Skate Shoes - Nike SB Janoski Black & White</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>R869.99 </p>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+            <img src="Images\kicks 4.webp" height="250px">
+            <h4>Converse One Star Premium Suede Low Top</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>R1099.99 </p>
+        </div>
+        <div class="col-4">
+            <img src="Images\nike 5.webp" height="275px">
+           <h4>Original New Arrival NIKE SB ZOOM BLAZER LOW GT Men'</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>R899.99 </p>
+         </div>
+
+        <div class="col-4">
+            <img src="Images\original.jpg" height="275px">
+            <h4>Crisis - multi</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>R949.99 </p>
+         </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+            <img src="Images\kicks 6.webp" height="250px">
+            <h4>Crisis - multi</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa--o"></i>
+            </div>
+            <p>R949.99 </p>
+        </div>
+        <div class="col-4">
+            <img src="Images\kicks 11.webp">
+            <h4>Crisis Shoes Navy/Navy</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>R799.99 </p>
+         </div>
+
+        <div class="col-4">
+            <img src="Images\nike 4.jpg" height="275px">
+            <h4>Nike SB Nyjah Free (Amarillo/Black White, 9.5)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>R2299.99 </p>
+        </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+            <img src="Images\kicks 8.jpg" height="250px">
+            <h4>Adidas Skateboarding - Suede Edition</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>R999.99 </p>
+        </div>
+
+        <div class="col-4">
+            <img src="Images\kicks 9.jpg">
+            <h4>Vans Off The Wall: Stephen Alonzo </h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>R749.99 </p>
+         </div>
+
+        <div class="col-4">
+            <img src="Images\kicks 10.jpg" height="275px">
+            <h4>Adidas Skateboarding Suede: Milan Rodriduez</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>R949.99 </p>
+        </div>
+    </div>
+
+            <div class="page-btn">
+                <a href="Products.html"><span>1</span></a>
+                <a href="Products 2.html"><span>2</span></a>
+                <a href="Products 3.html"><span>3</span></a>
+            </div>
+        </div>
+
+<!---- Footer ---->
+    <div class="footer">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="Images\gplay.png">
+                        <img src="Images\app store.png">
+                    </div>
+                </div>
+                 <div class="footer-col-2">
+                    <h3><img src="Images\logo.png"></h3>
+                    <p>Our key goal is to provide quality products for our customers</p>
+                </div>
+
+                 <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></li>
+                        <br>
+                        <li><a href="www.Twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                        <br>
+                        <li><a href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
+                        <br>
+                        <li><a href="www.youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i> YouTube</a></li>
+                        <br>
+                     </ul>
+                </div>
+            </div>
+         </div>
+        <hr>
+        <br>
+    <p class="copyright">@Copyright 2020 - OneStopSkateShop</p>
+</div>
+<!--- JavaScript used for toggle menu --->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight == "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>
