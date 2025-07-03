@@ -166,7 +166,17 @@ h2{
 	width: 100%;
 	height: auto;
 }
-
+.col-4 p{
+	font-size: 14px;
+	text-align: center;
+}
+.rating .fa{
+	color: #cba147;
+	align-items: center;
+}
+.col-4:hover{
+	transform: translateY(-5px);
+}
  /*----------- Products section -----------*/
 h3.title{
 	text-align: center;
@@ -191,16 +201,7 @@ h4{
 	font-weight: normal;
 	text-align: center;
 }
-.col-4 p{
-	font-size: 14px;
-}
-.rating .fa{
-	color: #cba147;
-	align-items: center;
-}
-.col-4:hover{
-	transform: translateY(-5px);
-}
+
 .col-5{
 	flex-basis: 25%;
 	padding: 10px;
@@ -216,11 +217,6 @@ h4{
 .col-5:hover{
 	transform: translateY(-5px);
 }
-.p1{
-	display: inline-block;
-	margin-right: 20px;
-}
-
  /*----------- About Us section -----------*/
 .p2{
 	display: inline-block;
