@@ -161,7 +161,7 @@ h2{
 	min-width: 200px;
 	margin-bottom: 50px;
 	transition: transform 0.5s;
-	align-items: center;
+	align-items: relative;
 }
 .col-4 img{
 	width: 100%;
