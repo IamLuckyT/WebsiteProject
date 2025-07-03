@@ -189,12 +189,14 @@ h3.title{
 h4{
 	color: #555;
 	font-weight: normal;
+	text-align: center;
 }
 .col-4 p{
 	font-size: 14px;
 }
 .rating .fa{
 	color: #cba147;
+	align-items: center;
 }
 .col-4:hover{
 	transform: translateY(-5px);
@@ -214,6 +216,12 @@ h4{
 .col-5:hover{
 	transform: translateY(-5px);
 }
+.p1{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+ /*----------- About Us section -----------*/
 .p2{
 	display: inline-block;
 	margin-right: 20px;
