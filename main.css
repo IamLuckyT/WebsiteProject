@@ -161,18 +161,17 @@ h2{
 	min-width: 200px;
 	margin-bottom: 50px;
 	transition: transform 0.5s;
+	align-items: center;
 }
 .col-4 img{
 	width: 100%;
 	height: auto;
 }
 .col-4 p{
-	font-size: 14px;
-	text-align: center;
+	font-size: 17px;
 }
 .rating .fa{
 	color: #cba147;
-	align-items: center;
 }
 .col-4:hover{
 	transform: translateY(-5px);
