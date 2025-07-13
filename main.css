@@ -19,7 +19,6 @@ body-1{
 	align-items: center;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	gap: 20px;
 }
 .col-2{
 	flex-basis: 50%;
